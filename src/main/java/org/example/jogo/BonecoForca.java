@@ -1,10 +1,10 @@
-package org.example;
+package org.example.jogo;
 
 public class BonecoForca {
 
-    JogoDaForca forca = new JogoDaForca();
 
-    static void desenharBoneco(int erros) {
+
+   public void desenharBoneco(int erros) {
         switch (erros) {
             case 1:
                 System.out.println("  O");
@@ -31,6 +31,13 @@ public class BonecoForca {
                 System.out.println(" /|\\");
                 System.out.println(" / \\");
                 break;
+            case 7:
+                System.out.println("  O/");
+                System.out.println(" /|\\");
+                System.out.println(" / \\");
+                break;
         }
     }
+
+
 }

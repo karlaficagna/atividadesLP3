@@ -1,4 +1,4 @@
-package org.example;
+package org.example.calculator;
 
 public class IMCCalculator {
     private double weight; // peso em quilogramas

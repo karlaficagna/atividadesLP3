@@ -1,6 +1,7 @@
 package org.example;
 
 
+import org.example.calculator.IMCCalculator;
 import org.junit.jupiter.api.Test;
 
 class IMCCalculatorTest {
